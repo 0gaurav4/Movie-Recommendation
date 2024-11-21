@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv(r'C:\Users\gaura\Desktop\netflix\recommender\imdb_movies.csv')
+df = pd.read_csv(r'C:\Users\gaura\Downloads\MVR\Movie-Recommendation\recommender\imdb_movies.csv')
 
 df['text'] = df['names']+' '+df['overview']
 df['text']
